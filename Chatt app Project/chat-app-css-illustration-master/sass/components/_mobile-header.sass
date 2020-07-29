@@ -1,0 +1,67 @@
+.mobile
+    max-width: 24%
+    height: 69vh
+    border: 10px solid $color-code-white
+    border-radius: 33px
+    background-color: $color-app-background
+    
+    overflow: visible
+    
+    position: absolute
+    top: 95px
+    left: -42px
+    
+    box-shadow: 0 10px 10px rgba(0,0,0,.3)
+    
+@media screen and (max-width: 500px)
+    .mobile
+        max-width: 90% !important
+        height: 420px !important
+        position: absolute !important
+        top: 100px !important
+        left: -46% !important
+        
+@media screen and (max-width: 1000px)
+    .mobile
+        max-width: 35%
+        height: 420px
+        position: absolute
+        top: 100px
+        left: -20%
+        
+.mobile-header
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    padding:  20px 20px 10px
+    background-image: linear-gradient(to right, $color-light-violet, $color-light-magenta)
+    color: $color-pale-voilet
+    
+    
+    position: relative
+    border-top-left-radius: 25px
+    border-top-right-radius: 25px
+    align-items: center
+    
+.mobile-header img
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    border: 1px solid $color-pale-voilet
+    margin-right: 3px
+    
+        
+.header-text 
+    padding: 0 5px
+    align-items: center
+    
+.header-text h4
+    
+    margin: 0
+    margin-bottom: -7px
+    font-size: 12px
+    
+.header-text span
+    
+    font-size: 8px
+    padding: 0

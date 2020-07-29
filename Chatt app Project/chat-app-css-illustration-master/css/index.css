@@ -1,0 +1,252 @@
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91%; }
+
+.col-12 {
+  width: 100%; }
+
+@media (max-width: 500px) {
+  .col-4 {
+    width: 50%; }
+
+  .col-8 {
+    width: 50%; } }
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.row::after {
+  display: table;
+  clear: both; }
+
+* {
+  box-sizing: border-box; }
+
+.left-side {
+  background: linear-gradient(90deg, #9e4bc7 81%, #9e4bc7 100%, #8b09c6 100%);
+  height: 80vh;
+  border-radius: 0 0 61% 38%/0 0 32% 13%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #f5f3f7;
+  font-family: "Rubik", sans-serif; }
+
+.right-side {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+.right-text-box {
+  width: 30%;
+  margin: 200px auto; }
+
+.right-text-box h1 {
+  color: #3e2753; }
+
+.right-text-box p {
+  font-size: 14px;
+  color: #a39daa;
+  line-height: 20px; }
+
+@media (max-width: 500px) {
+  .right-text-box h1 {
+    font-size: 2.12em; }
+
+  .right-text-box {
+    position: absolute;
+    left: -48%;
+    top: 60%;
+    text-align: center;
+    width: 100%; } }
+.mobile {
+  max-width: 24%;
+  height: 69vh;
+  border: 10px solid white;
+  border-radius: 33px;
+  background-color: #f5f3f7;
+  overflow: visible;
+  position: absolute;
+  top: 95px;
+  left: -42px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); }
+
+@media screen and (max-width: 500px) {
+  .mobile {
+    max-width: 90% !important;
+    height: 420px !important;
+    position: absolute !important;
+    top: 100px !important;
+    left: -46% !important; } }
+@media screen and (max-width: 1000px) {
+  .mobile {
+    max-width: 35%;
+    height: 420px;
+    position: absolute;
+    top: 100px;
+    left: -20%; } }
+.mobile-header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 10px;
+  background-image: linear-gradient(to right, #8838ff, #e942ff);
+  color: #d89eff;
+  position: relative;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  align-items: center; }
+
+.mobile-header img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #d89eff;
+  margin-right: 3px; }
+
+.header-text {
+  padding: 0 5px;
+  align-items: center; }
+
+.header-text h4 {
+  margin: 0;
+  margin-bottom: -7px;
+  font-size: 12px; }
+
+.header-text span {
+  font-size: 8px;
+  padding: 0; }
+
+.mobile-body {
+  font-size: 8px;
+  padding: 8px; }
+
+.bubble {
+  border-radius: 12px;
+  padding: 4px 10px;
+  margin-bottom: 8px; }
+
+.body-images {
+  margin-left: 40%; }
+
+.b-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 2px;
+  margin-bottom: 2px; }
+
+.bubble-grey {
+  width: 65%;
+  color: #9241c8;
+  background-color: #e6e6e6; }
+
+.bubble-white {
+  width: 65%;
+  background: white;
+  color: #6e5d7e;
+  margin-left: 35%; }
+
+.bubble-voilet {
+  width: 75%;
+  color: #d89eff;
+  background-image: linear-gradient(to right, #8838ff, #e942ff); }
+
+.bubble-voilet .price {
+  color: white;
+  font-size: 10px;
+  margin-left: 20px; }
+
+.bubble-voilet .price2 {
+  margin-left: 30px;
+  color: white;
+  font-size: 10px; }
+
+.type-bar {
+  padding: 10px;
+  font-size: 10px;
+  width: 90%;
+  border-radius: 20px;
+  border: none;
+  margin-left: 8px; }
+
+.type-bar:hover, .type-bar:focus {
+  outline: none;
+  border: none; }
+
+.mobile-footer {
+  position: relative; }
+
+.notch {
+  width: 120px;
+  height: 25px;
+  background-color: white;
+  border-radius: 45px;
+  position: absolute;
+  top: -10px;
+  left: 35px; }
+
+@media (max-width: 500px) {
+  .notch {
+    position: absolute;
+    top: -10px;
+    left: 40px; } }
+@media (max-width: 1000px) {
+  .notch {
+    position: absolute;
+    top: -10px;
+    left: 45px; } }
+.fas {
+  margin-left: -10px;
+  margin-right: 8px; }
+
+.fa {
+  margin-left: 25px; }
+
+.fat {
+  position: absolute;
+  top: 4.8px;
+  left: 120px;
+  background-color: #3e2753;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%; }
+
+@media (max-width: 500px) {
+  .fa {
+    margin-left: 40px; } }
+
+/*# sourceMappingURL=index.css.map */
